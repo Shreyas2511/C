@@ -1,0 +1,13 @@
+AIM : To find the Area and Perimeter of Rectangle, Square and Triangle
+PSUEDO CODE:
+BEGIN
+DEFINE L, B, Side, Base, Height, TriSide, RectAr, RectP, SqAr, SqP, TriAr, TriP
+READ L, B, Side, Base, Height, TriSide
+CALCULATE RectAr = L*B
+CALCULATE RectP = 2*(L+B)
+CALCULATE SqAr = Side*Side
+CALCULATE SqP = 4*Side
+CALCULATE TriAr = 0.5*Base*Height
+CALCULATE TriP = 3*TriSide
+DISPLAY RectAr, RectP, SqAr, SqP, TriAr, TriP
+END
