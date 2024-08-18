@@ -1,0 +1,13 @@
+Aim- To write a C program for finding the
+greatest of three numbers using logical
+operators.
+Pseudo code:
+BEGIN
+DEFINEa,b,c
+READ a,b,c
+IF ((a>b) && (a>b)) then
+DISPLAY “ a is greatest:%d, ‘a’”
+ELSE IF ((b>a) && (b>c)) then
+DISPLAY “ b is greatest:%d, ‘b’”
+ELSE DISPLAY “ c is the greatest:%d, ‘c’ “
+END 
