@@ -1,0 +1,22 @@
+To input basic salary of an employee and calculate gross salary according to the given
+conditions
+1) If Basic Salary <= 10,000, then HRA = 20% of basic salary and DA = 80% of basic salary
+2) If Basic Salary is between 10,000 and 20,000, then HRA = 25% of basic salary and DA = 90%
+of basic salary
+3) If Basic Salary >=20,000, then HRA = 30% of basic salary and DA = 95% of basic salary
+
+Pseudocode : BEGIN
+DEFINE : HRA,DA,GROSS SALARY,BASIC SALARY.
+Read : Basic Salary
+- If basicSalary <= 10,000:
+- Set HRA = 20% of basicSalary
+- Set DA = 80% of basicSalary
+- Else if basicSalary is between 10,000 and 20,000:
+- Set HRA = 25% of basicSalary
+- Set DA = 90% of basicSalary
+- Else (basicSalary >= 20,000):
+- Set HRA = 30% of basicSalary
+- Set DA = 95% of basicSalary
+Calculate : grossSalary = basicSalary + HRA + DA
+Display: Gross Salary
+End.
